@@ -560,9 +560,9 @@ export default async function ContentRoute({
               </a>
             </div>
           </div>
-          <form
+          <FormSubmit
             action={leadFormAction}
-            method="post"
+            thankYouPath={siteConfig.template.thankYouPath}
           >
             <input type="hidden" name="_subject" value={leadSubject("lead – contactpagina")} />
             <input type="hidden" name="_captcha" value="false" />
@@ -632,7 +632,7 @@ export default async function ContentRoute({
               Wij verwerken uw gegevens volgens onze{" "}
               <a href="/privacyverklaring/">privacyverklaring</a>.
             </small>
-          </form>
+          </FormSubmit>
         </section>
       )}
       {page.slug === "blog" && featuredBlog ? (
@@ -832,9 +832,9 @@ export default async function ContentRoute({
               </a>
             </div>
           </div>
-          <form
+          <FormSubmit
             action={leadFormAction}
-            method="post"
+            thankYouPath={siteConfig.template.thankYouPath}
           >
             <input type="hidden" name="_subject" value={leadSubject(`lead – ${page.title}`)} />
             <input type="hidden" name="_captcha" value="false" />
@@ -875,7 +875,7 @@ export default async function ContentRoute({
             <small className="wide">
               Sophie neemt persoonlijk contact met u op.
             </small>
-          </form>
+          </FormSubmit>
         </section>
       )}
       {page.slug !== "contact" && page.slug !== "woning-aanmelden" && (
