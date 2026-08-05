@@ -1,0 +1,82 @@
+/* Single source of truth for the VBS San Pedro logo rendering.
+   Loaded last so legacy page-specific logo rules cannot crop the artwork. */
+.site-header,
+.content-header {
+  min-height: 96px;
+  height: 96px;
+  overflow: visible;
+}
+
+.brand-lockup,
+.site-header .brand-lockup,
+.content-header .brand-lockup,
+.site-footer .brand-lockup,
+.footer-brand .brand-lockup,
+.thanks-logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  height: auto !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  line-height: 0 !important;
+}
+
+.brand-lockup .brand-logo,
+.site-header .brand-lockup .brand-logo,
+.content-header .brand-lockup .brand-logo,
+.site-footer .brand-lockup .brand-logo,
+.footer-brand .brand-lockup .brand-logo,
+.thanks-logo .brand-logo,
+.thanks-logo img {
+  display: block !important;
+  width: 78px !important;
+  height: 78px !important;
+  min-width: 78px !important;
+  max-width: 78px !important;
+  min-height: 78px !important;
+  max-height: 78px !important;
+  object-fit: contain !important;
+  object-position: 50% 50% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  clip-path: none !important;
+  mask: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+  transform: none !important;
+}
+
+@media (max-width: 620px) {
+  .site-header,
+  .content-header {
+    min-height: 84px !important;
+    height: 84px !important;
+  }
+
+  .brand-lockup .brand-logo,
+  .site-header .brand-lockup .brand-logo,
+  .content-header .brand-lockup .brand-logo,
+  .site-footer .brand-lockup .brand-logo,
+  .footer-brand .brand-lockup .brand-logo,
+  .thanks-logo .brand-logo,
+  .thanks-logo img {
+    width: 68px !important;
+    height: 68px !important;
+    min-width: 68px !important;
+    max-width: 68px !important;
+    min-height: 68px !important;
+    max-height: 68px !important;
+  }
+}
