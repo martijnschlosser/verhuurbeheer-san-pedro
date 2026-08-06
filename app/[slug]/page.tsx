@@ -509,35 +509,35 @@ export default async function ContentRoute({
       {page.slug === "woning-aanmelden" && (
         <section className="signup-experience" id="woningformulier">
           <div className="signup-story">
-            <p className="kicker orange">Uw woning in goede handen</p>
+            <p className="kicker orange">Je woning in goede handen</p>
             <h2>Een kleine eerste stap. Daarna regelen wij de rest.</h2>
-            <p>Vertel ons kort over uw woning. Binnen twee werkdagen neemt ons Nederlandstalige team persoonlijk contact met u op.</p>
+            <p>Vertel ons kort over je woning. Binnen twee werkdagen neemt ons Nederlandstalige team persoonlijk contact met je op.</p>
             <div className="signup-photo">
               <img src={siteConfig.assets.signup} alt={`Zonnig terras met zeezicht in ${siteConfig.location.city}`} width="1600" height="1067" loading="eager" />
               <span>San Pedro de Alcántara · Costa del Sol</span>
             </div>
             <div className="signup-promises">
-              <span><CheckCircle2 aria-hidden="true" /><b>Vrijblijvend</b><small>U zit nergens aan vast</small></span>
+              <span><CheckCircle2 aria-hidden="true" /><b>Vrijblijvend</b><small>Je zit nergens aan vast</small></span>
               <span><CheckCircle2 aria-hidden="true" /><b>Binnen 2 werkdagen</b><small>Persoonlijk antwoord</small></span>
               <span><CheckCircle2 aria-hidden="true" /><b>Nederlandstalig</b><small>Een helder gesprek</small></span>
             </div>
           </div>
           <FormSubmit className="signup-form" action={leadFormAction} thankYouPath={siteConfig.template.thankYouPath}>
-            <div className="form-heading"><span>01</span><div><small>Uw woning aanmelden</small><h2>Vertel ons over uw woning</h2></div></div>
+            <div className="form-heading"><span>01</span><div><small>Je woning aanmelden</small><h2>Vertel ons over je woning</h2></div></div>
             <input type="hidden" name="_subject" value={leadSubject()} />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value={absoluteUrl("/bedankt/")} />
             <input type="hidden" name="bron_website" value={siteConfig.template.sourceWebsite} />
             <input type="hidden" name="bron_formulier" value="Woning aanmelden" />
-            <label>Naam<input name="naam" autoComplete="name" placeholder="Uw voor- en achternaam" required /></label>
+            <label>Naam<input name="naam" autoComplete="name" placeholder="Je voor- en achternaam" required /></label>
             <label>E-mailadres<input type="email" name="email" autoComplete="email" placeholder="naam@voorbeeld.nl" required /></label>
             <label>Telefoonnummer <small>(optioneel)</small><input type="tel" name="telefoon" autoComplete="tel" placeholder="+31 of +34" /></label>
             <label>Locatie woning<input name="locatie" placeholder="Bijv. San Pedro de Alcántara, Nueva Alcántara of Nueva Andalucía" required /></label>
-            <label>Type woning<select name="type" defaultValue=""><option value="" disabled>Kies uw woningtype</option><option>Appartement</option><option>Villa</option><option>Townhouse</option><option>Anders</option></select></label>
-            <label>Waar kunnen we bij helpen?<select name="dienst" defaultValue=""><option value="" disabled>Kies een dienst</option><option>Vakantieverhuur</option><option>Seizoens- en midtermverhuur</option><option>Langetermijnverhuur</option><option>Vastgoedbeheer</option><option>Schoonmaak & onderhoud</option><option>Renovatie & inrichting</option><option>Ik wil graag advies</option></select></label>
-            <label className="wide">Vertel kort iets over uw woning en wensen <small>(optioneel)</small><textarea name="bericht" rows={4} placeholder="Bijvoorbeeld: aantal slaapkamers, eigen gebruik en gewenste startdatum" /></label>
+            <label>Type woning<select name="type" defaultValue="" required><option value="" disabled>Kies je woningtype</option><option>Appartement</option><option>Villa</option><option>Townhouse</option><option>Anders</option></select></label>
+            <label>Waar kunnen we bij helpen?<select name="dienst" defaultValue="" required><option value="" disabled>Kies een dienst</option><option>Vakantieverhuur</option><option>Seizoens- en midtermverhuur</option><option>Langetermijnverhuur</option><option>Vastgoedbeheer</option><option>Schoonmaak & onderhoud</option><option>Renovatie & inrichting</option><option>Ik wil graag advies</option></select></label>
+            <label className="wide">Vertel kort iets over je woning en wensen <small>(optioneel)</small><textarea name="bericht" rows={4} placeholder="Bijvoorbeeld: aantal slaapkamers, eigen gebruik en gewenste startdatum" /></label>
             <button className="btn wide form-cta" type="submit">Woning vrijblijvend aanmelden →</button>
-            <small className="wide privacy-note"><CheckCircle2 aria-hidden="true" /> Uw gegevens worden veilig verwerkt volgens onze <a href="/privacyverklaring/">privacyverklaring</a>.</small>
+            <small className="wide privacy-note"><CheckCircle2 aria-hidden="true" /> Je gegevens worden veilig verwerkt volgens onze <a href="/privacyverklaring/">privacyverklaring</a>.</small>
           </FormSubmit>
         </section>
       )}
