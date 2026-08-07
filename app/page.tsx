@@ -270,7 +270,7 @@ export default function Home() {
           <p className="kicker">
             Voor Nederlandse woningeigenaren aan de Costa del Sol
           </p>
-          <h1>Verhuurbeheer San Pedro de Alcántara voor je woning.</h1>
+          <h1>Geniet van je tweede huis in San Pedro de Alcántara, wij regelen de rest.</h1>
           <p>
             Professioneel beheer voor vakantieverhuur, midterm en langetermijn,
             aangevuld met lokaal vastgoedbeheer, schoonmaak en onderhoud. Eén
