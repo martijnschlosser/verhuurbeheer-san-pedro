@@ -16,7 +16,7 @@ const seoH1BySlug: Record<string, string> = {
   "renovatie-inrichting-san-pedro": "Renovatie en inrichting in San Pedro de Alcántara",
   "kosten-verhuurbeheer-san-pedro": "Wat kost verhuurbeheer in San Pedro de Alcántara?",
   "dynamische-prijzen-vakantiewoning":
-    "Dynamische prijzen voor een vakantiewoning in San Pedro de Alcántara",
+    "Rendement vakantiewoning in San Pedro de Alcántara met dynamische prijzen",
   "zelf-verhuren-of-verhuurbeheer":
     "Zelf verhuren of verhuurbeheer in San Pedro de Alcántara?",
   "verhuurlicentie-san-pedro":
