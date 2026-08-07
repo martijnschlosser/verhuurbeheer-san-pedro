@@ -132,6 +132,7 @@ const relatedBySlug: Record<string, string[]> = {
     "verhuurlicentie-san-pedro",
     "kosten-verhuurbeheer-san-pedro",
     "dynamische-prijzen-vakantiewoning",
+    "vastgoedbeheer-san-pedro",
   ],
   "vastgoedbeheer-san-pedro": [
     "schoonmaak-onderhoud-san-pedro",
@@ -157,11 +158,32 @@ const relatedBySlug: Record<string, string[]> = {
     "vakantieverhuur-san-pedro",
     "midterm-verhuur-san-pedro",
     "langetermijnverhuur-san-pedro",
+    "dynamische-prijzen-vakantiewoning",
   ],
   "dynamische-prijzen-vakantiewoning": [
     "vakantieverhuur-san-pedro",
     "kosten-verhuurbeheer-san-pedro",
     "zelf-verhuren-of-verhuurbeheer",
+  ],
+  "zelf-verhuren-of-verhuurbeheer": [
+    "vakantieverhuur-san-pedro",
+    "vastgoedbeheer-san-pedro",
+    "kosten-verhuurbeheer-san-pedro",
+  ],
+  "schoonmaak-onderhoud-san-pedro": [
+    "vastgoedbeheer-san-pedro",
+    "vakantieverhuur-san-pedro",
+    "renovatie-inrichting-san-pedro",
+  ],
+  "renovatie-inrichting-san-pedro": [
+    "vastgoedbeheer-san-pedro",
+    "schoonmaak-onderhoud-san-pedro",
+    "vakantieverhuur-san-pedro",
+  ],
+  "werkwijze": [
+    "vakantieverhuur-san-pedro",
+    "vastgoedbeheer-san-pedro",
+    "kosten-verhuurbeheer-san-pedro",
   ],
 };
 
