@@ -58,6 +58,8 @@ export const siteConfig = {
       "woningbeheer San Pedro de Alcántara",
       "vakantiewoning verhuren San Pedro de Alcántara",
       "Airbnb beheer San Pedro de Alcántara",
+      "Nederlandse verhuurmakelaar San Pedro de Alcántara",
+      "sleutelbeheer San Pedro de Alcántara",
       "verhuurlicentie San Pedro de Alcántara",
       "appartement verhuren San Pedro de Alcántara",
       "villa verhuren San Pedro de Alcántara",
