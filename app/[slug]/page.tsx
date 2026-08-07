@@ -822,8 +822,8 @@ export default async function ContentRoute({
               <p className="eyebrow">Persoonlijk advies</p>
               <h2>Meer weten over dit onderwerp?</h2>
               <p>
-                Heeft u een vraag over dit artikel of wil je weten wat dit voor
-                je woning betekent? Sophie denkt graag met u mee.
+                Heb je een vraag over dit artikel of wil je weten wat dit voor
+                je woning betekent? Sophie denkt graag met je mee.
               </p>
               <strong>Sophie · Backoffice</strong>
               <a href={whatsappHref("Hallo Sophie, ik heb een vraag over dit artikel")}>
