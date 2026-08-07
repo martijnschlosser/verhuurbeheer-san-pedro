@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CookiePreferencesButton } from "./CookieConsent";
 import {
   BedDouble,
@@ -75,7 +74,7 @@ const services = [
     slug: "vastgoedbeheer-san-pedro",
     price: "Maatwerk",
     icon: ShieldCheck,
-    text: "Woningcontroles, sleutelbeheer, toegang voor leveranciers en praktische opvolging wanneer u niet in Spanje bent.",
+    text: "Woningcontroles, sleutelbeheer, toegang voor leveranciers en praktische opvolging wanneer je niet in Spanje bent.",
   },
   {
     title: "Schoonmaak & onderhoud",
@@ -108,7 +107,7 @@ const faqs = [
   ],
   [
     "Kan ik mijn woning zelf blijven gebruiken?",
-    "Ja. Bij vakantieverhuur kunnen eigen verblijven vooraf in de kalender worden geblokkeerd. We bespreken bij de start hoe u de woning zelf wilt blijven gebruiken.",
+    "Ja. Bij vakantieverhuur kunnen eigen verblijven vooraf in de kalender worden geblokkeerd. We bespreken bij de start hoe je de woning zelf wilt blijven gebruiken.",
   ],
   [
     "Op welke verhuurplatforms wordt mijn woning aangeboden?",
@@ -271,7 +270,7 @@ export default function Home() {
           <p className="kicker">
             Voor Nederlandse woningeigenaren aan de Costa del Sol
           </p>
-          <h1>Verhuurbeheer San Pedro de Alcántara voor uw woning.</h1>
+          <h1>Verhuurbeheer San Pedro de Alcántara voor je woning.</h1>
           <p>
             Professioneel beheer voor vakantieverhuur, midterm en langetermijn,
             aangevuld met lokaal vastgoedbeheer, schoonmaak en onderhoud. Eén
@@ -279,7 +278,7 @@ export default function Home() {
           </p>
           <div className="actions">
             <a className="btn hero-cta" href={leadHref}>
-              Meld uw woning aan
+              Meld je woning aan
             </a>
             <a className="link-light" href="#diensten">
               Bekijk alle diensten →
@@ -289,7 +288,7 @@ export default function Home() {
         <div className="hero-stats">
           <span>
             <CheckCircle2 aria-hidden="true" />
-            <b>Airbnb &amp; Booking</b> op uw eigen naam
+            <b>Airbnb &amp; Booking</b> op je eigen naam
           </span>
           <span>
             <CheckCircle2 aria-hidden="true" />
@@ -359,7 +358,7 @@ export default function Home() {
       <section className="services" id="diensten">
         <div className="section-head">
           <p className="kicker orange">Onze diensten</p>
-          <h2>Alles voor uw woning in San Pedro de Alcántara</h2>
+          <h2>Alles voor je woning in San Pedro de Alcántara</h2>
           <p>
             Van verhuur tot lokale woningzorg. U kiest wat nodig is; wij regelen
             de uitvoering vanuit één vast aanspreekpunt.
@@ -388,7 +387,7 @@ export default function Home() {
         <div>
           <b>Vakantieverhuur? Controleer tijdig de verhuurvoorwaarden.</b>
           <p>
-            Bekijk welke registratie- en vergunningspunten voor uw woning
+            Bekijk welke registratie- en vergunningspunten voor je woning
             relevant kunnen zijn.
           </p>
         </div>
@@ -398,10 +397,10 @@ export default function Home() {
       <section className="rental-band">
         <div>
           <p className="kicker">Welke verhuurvorm past?</p>
-          <h2>Verhuren op een manier die bij u past.</h2>
+          <h2>Verhuren op een manier die bij je past.</h2>
           <p>
             We vergelijken eigen gebruik, gewenste opbrengst en zekerheid en
-            adviseren welke verhuurvorm bij uw woning past.
+            adviseren welke verhuurvorm bij je woning past.
           </p>
         </div>
         <div className="rental-options">
@@ -434,7 +433,7 @@ export default function Home() {
             <div>
               <h3>Kennismaking</h3>
               <p>
-                We bespreken uw woning, doelen, eigen gebruik en gewenste
+                We bespreken je woning, doelen, eigen gebruik en gewenste
                 verhuurvorm.
               </p>
             </div>
@@ -464,7 +463,7 @@ export default function Home() {
             <div>
               <h3>Start en opvolging</h3>
               <p>
-                Wij verzorgen de dagelijkse uitvoering en houden u op de hoogte
+                Wij verzorgen de dagelijkse uitvoering en houden je op de hoogte
                 van relevante zaken.
               </p>
             </div>
@@ -474,15 +473,15 @@ export default function Home() {
 
       <section className="owner-experience" aria-label="De beleving van professioneel woningbeheer">
         <div className="owner-experience-copy">
-          <p className="kicker orange">Uw woning, onze aandacht</p>
+          <p className="kicker orange">Je woning, onze aandacht</p>
           <h2>Meer rust. Meer grip. Een woning die er altijd goed bij staat.</h2>
           <p>
-            Van de eerste indruk van uw advertentie tot de controle na vertrek:
+            Van de eerste indruk van je advertentie tot de controle na vertrek:
             we bewaken de uitstraling én de praktische details die het verschil
             maken voor gasten en eigenaren.
           </p>
           <a className="dark-link" href="/woning-aanmelden/">
-            Bespreek uw woning met ons →
+            Bespreek je woning met ons →
           </a>
         </div>
         <figure className="owner-experience-main">
@@ -532,7 +531,7 @@ export default function Home() {
           <p className="kicker orange">Ons team</p>
           <h2>Nederlandstalig contact, lokale uitvoering.</h2>
           <p>
-            U spreekt met echte mensen die uw woning en de Costa del Sol kennen.
+            U spreekt met echte mensen die je woning en de Costa del Sol kennen.
             Samen verzorgen we verhuur, administratie, vastgoedbeheer en
             praktische opvolging ter plaatse.
           </p>
@@ -609,17 +608,17 @@ export default function Home() {
         <div className="home-owner-cta-image" role="img" aria-label="Zonnig terras met uitzicht op zee in San Pedro de Alcántara" />
         <div className="home-owner-cta-copy">
           <p className="kicker orange">Vrijblijvend kennismaken</p>
-          <h2>Klaar om meer uit uw woning in San Pedro de Alcántara te halen?</h2>
+          <h2>Klaar om meer uit je woning in San Pedro de Alcántara te halen?</h2>
           <p>
-            Meld uw woning aan voor verhuurbeheer of lokale woningzorg. Binnen
-            één werkdag bespreken we persoonlijk uw wensen en de mogelijkheden.
+            Meld je woning aan voor verhuurbeheer of lokale woningzorg. Binnen
+            één werkdag bespreken we persoonlijk je wensen en de mogelijkheden.
           </p>
           <ul>
             <li>Vrijblijvend en zonder verplichtingen</li>
             <li>Persoonlijk Nederlandstalig contact</li>
-            <li>Duidelijk advies passend bij uw woning</li>
+            <li>Duidelijk advies passend bij je woning</li>
           </ul>
-          <a className="btn" href={leadHref}>Meld uw woning aan →</a>
+          <a className="btn" href={leadHref}>Meld je woning aan →</a>
         </div>
       </section>
       <footer className="site-footer">
