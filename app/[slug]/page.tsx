@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { contentBySlug, contentPages } from "../content";
 import { CookiePreferencesButton } from "../CookieConsent";
@@ -374,12 +373,12 @@ export default async function ContentRoute({
               <b>Veilig sleutelbeheer</b> en toegang voor leveranciers
             </>,
             <>
-              <b>Onderhoudscoördinatie</b> na uw akkoord
+              <b>Onderhoudscoördinatie</b> na je akkoord
             </>,
           ]
         : [
             <>
-              <b>Airbnb &amp; Booking</b> op uw eigen naam
+              <b>Airbnb &amp; Booking</b> op je eigen naam
             </>,
             <>
               <b>Vast Nederlandstalig</b> contactpersoon
@@ -483,7 +482,7 @@ export default async function ContentRoute({
           <p>{page.intro}</p>
           {page.slug !== "contact" && page.slug !== "woning-aanmelden" && (
             <a className="button button-primary" href="/woning-aanmelden/">
-              Bespreek uw woning →
+              Bespreek je woning →
             </a>
           )}
         </div>
@@ -491,7 +490,7 @@ export default async function ContentRoute({
           <small>{page.price ? "Vanaf-prijs" : "Lokale expertise"}</small>
           <strong>{page.price ?? "San Pedro de Alcántara · Costa del Sol"}</strong>
           <p>
-            Nederlandstalig contact en een lokale uitvoering rond uw woning.
+            Nederlandstalig contact en een lokale uitvoering rond je woning.
           </p>
         </aside>
       </section>
@@ -545,10 +544,10 @@ export default async function ContentRoute({
         <section className="contact contact-page-form" id="woningformulier">
           <div className="contact-intro">
             <p className="kicker">Persoonlijk kennismaken</p>
-            <h2>Vertel ons over uw woning</h2>
+            <h2>Vertel ons over je woning</h2>
             <p>
-              Deel kort uw plannen. Ons Nederlandstalige team neemt persoonlijk
-              contact met u op.
+              Deel kort je plannen. Ons Nederlandstalige team neemt persoonlijk
+              contact met je op.
             </p>
             <div className="contact-options">
               <a href={emailHref}>
@@ -622,14 +621,14 @@ export default async function ContentRoute({
               </select>
             </label>
             <label className="wide">
-              Uw vraag of toelichting
+              Je vraag of toelichting
               <textarea name="bericht" rows={5} />
             </label>
             <button className="btn wide form-cta" type="submit">
-              Verstuur uw aanvraag →
+              Verstuur je aanvraag →
             </button>
             <small className="wide privacy-note">
-              Wij verwerken uw gegevens volgens onze{" "}
+              Wij verwerken je gegevens volgens onze{" "}
               <a href="/privacyverklaring/">privacyverklaring</a>.
             </small>
           </FormSubmit>
@@ -664,7 +663,7 @@ export default async function ContentRoute({
           </a>
           <div className="blog-list-heading">
             <p className="eyebrow">Alle artikelen</p>
-            <h2>Praktische kennis over uw woning in Spanje</h2>
+            <h2>Praktische kennis over je woning in Spanje</h2>
           </div>
           <div className="blog-card-grid">
             {blogArticles.slice(1).map((article) => {
@@ -701,7 +700,7 @@ export default async function ContentRoute({
                 loading="lazy"
               />
               <figcaption>
-                Lokale aandacht voor presentatie, beheer en uitvoering rond uw
+                Lokale aandacht voor presentatie, beheer en uitvoering rond je
                 woning.
               </figcaption>
             </figure>
@@ -732,7 +731,7 @@ export default async function ContentRoute({
         <aside className="official-sources" aria-label="Officiële bronnen">
           <strong>Officiële informatie controleren</strong>
           <p>
-            Regels kunnen wijzigen. Controleer uw situatie altijd aan de hand
+            Regels kunnen wijzigen. Controleer je situatie altijd aan de hand
             van de actuele informatie van de bevoegde instanties.
           </p>
           <a
@@ -812,7 +811,7 @@ export default async function ContentRoute({
       {page.type === "gids" && (
         <section className="blog-lead">
           <div className="blog-lead-person">
-            <Image
+            <img
               src="/sophie-san-pedro.webp"
               alt="Sophie van Verhuurbeheer San Pedro de Alcántara"
               width={1088}
@@ -823,12 +822,12 @@ export default async function ContentRoute({
               <p className="eyebrow">Persoonlijk advies</p>
               <h2>Meer weten over dit onderwerp?</h2>
               <p>
-                Heeft u een vraag over dit artikel of wilt u weten wat dit voor
-                uw woning betekent? Sophie denkt graag met u mee.
+                Heeft u een vraag over dit artikel of wil je weten wat dit voor
+                je woning betekent? Sophie denkt graag met u mee.
               </p>
               <strong>Sophie · Backoffice</strong>
               <a href={whatsappHref("Hallo Sophie, ik heb een vraag over dit artikel")}>
-                Stel uw vraag via WhatsApp →
+                Stel je vraag via WhatsApp →
               </a>
             </div>
           </div>
@@ -859,21 +858,21 @@ export default async function ContentRoute({
               <input type="tel" name="telefoon" autoComplete="tel" />
             </label>
             <label>
-              Locatie van uw woning
+              Locatie van je woning
               <input
                 name="locatie"
                 placeholder="Bijv. San Pedro de Alcántara, Nueva Andalucía of Marbella"
               />
             </label>
             <label className="wide">
-              Uw vraag
+              Je vraag
               <textarea name="vraag" rows={5} required />
             </label>
             <button className="button button-primary wide" type="submit">
-              Verstuur uw vraag →
+              Verstuur je vraag →
             </button>
             <small className="wide">
-              Sophie neemt persoonlijk contact met u op.
+              Sophie neemt persoonlijk contact met je op.
             </small>
           </FormSubmit>
         </section>
@@ -881,9 +880,9 @@ export default async function ContentRoute({
       {page.slug !== "contact" && page.slug !== "woning-aanmelden" && (
         <section className="content-cta">
           <p className="eyebrow">Vrijblijvend kennismaken</p>
-          <h2>Wilt u weten welke aanpak bij uw woning past?</h2>
+          <h2>Wil je weten welke aanpak bij je woning past?</h2>
           <p>
-            Vertel ons kort waar uw woning ligt en hoe u deze wilt gebruiken.
+            Vertel ons kort waar je woning ligt en hoe je deze wilt gebruiken.
             Dan bespreken we de mogelijkheden voor beheer en verhuur in
             San Pedro de Alcántara.
           </p>
