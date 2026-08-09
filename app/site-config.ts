@@ -32,6 +32,7 @@ export const siteConfig = {
     hero: "/san-pedro-hero.webp",
     social: "/luxe-woning-san-pedro-zeezicht.webp",
     signup: "/zonnig-terras-zeezicht-san-pedro.webp",
+    sophie: "/sophie-san-pedro.webp",
   },
   domain: "https://verhuurbeheersanpedro.nl",
   contact: {
