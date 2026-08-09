@@ -47,7 +47,7 @@ const team = [
     name: "Sophie",
     role: "Backoffice",
     languages: "NL · EN · ES",
-    image: "/sophie-san-pedro.webp",
+    image: siteConfig.assets.sophie,
     alt: "Sophie, Nederlandstalig aanspreekpunt en backoffice bij Verhuurbeheer Spanje",
   },
   {
@@ -186,6 +186,13 @@ const relatedBySlug: Record<string, string[]> = {
     "kosten-verhuurbeheer-san-pedro",
   ],
 };
+
+Object.assign(relatedBySlug, {
+  "eigen-gebruik-en-verhuur-san-pedro": ["vakantieverhuur-san-pedro","midterm-verhuur-san-pedro","vastgoedbeheer-san-pedro","kosten-verhuurbeheer-san-pedro","zelf-verhuren-of-verhuurbeheer"],
+  "vakantieverhuur-san-pedro": ["eigen-gebruik-en-verhuur-san-pedro","midterm-verhuur-san-pedro","vastgoedbeheer-san-pedro","kosten-verhuurbeheer-san-pedro","zelf-verhuren-of-verhuurbeheer"],
+  "midterm-verhuur-san-pedro": ["eigen-gebruik-en-verhuur-san-pedro","vakantieverhuur-san-pedro","vastgoedbeheer-san-pedro","kosten-verhuurbeheer-san-pedro","zelf-verhuren-of-verhuurbeheer"],
+  "vastgoedbeheer-san-pedro": ["eigen-gebruik-en-verhuur-san-pedro","vakantieverhuur-san-pedro","midterm-verhuur-san-pedro","kosten-verhuurbeheer-san-pedro","zelf-verhuren-of-verhuurbeheer"],
+});
 
 const contentVisualBySlug: Record<string, { src: string; alt: string }> = {
   "vakantieverhuur-san-pedro": {
@@ -840,7 +847,7 @@ export default async function ContentRoute({
         <section className="blog-lead">
           <div className="blog-lead-person">
             <img
-              src="/sophie-san-pedro.webp"
+              src={siteConfig.assets.sophie}
               alt="Sophie van Verhuurbeheer San Pedro de Alcántara"
               width={1088}
               height={1100}
