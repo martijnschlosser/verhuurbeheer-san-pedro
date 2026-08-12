@@ -201,6 +201,13 @@ Object.assign(relatedBySlug, {
   "sleutelbeheer-san-pedro": ["woning-klaarmaken-eigen-aankomst-san-pedro", ...(relatedBySlug["sleutelbeheer-san-pedro"] ?? []).filter((slug) => slug !== "woning-klaarmaken-eigen-aankomst-san-pedro")].slice(0, 6),
 });
 
+Object.assign(relatedBySlug, {
+  "villa-tuin-zwembad-beheer-san-pedro": ["villa-verhuren-san-pedro","vastgoedbeheer-san-pedro","tweede-woning-beheer-san-pedro","woning-klaarmaken-eigen-aankomst-san-pedro","kosten-verhuurbeheer-san-pedro"],
+  "villa-verhuren-san-pedro": ["villa-tuin-zwembad-beheer-san-pedro", ...(relatedBySlug["villa-verhuren-san-pedro"] ?? []).filter((slug) => slug !== "villa-tuin-zwembad-beheer-san-pedro")].slice(0, 6),
+  "vastgoedbeheer-san-pedro": ["villa-tuin-zwembad-beheer-san-pedro", ...(relatedBySlug["vastgoedbeheer-san-pedro"] ?? []).filter((slug) => slug !== "villa-tuin-zwembad-beheer-san-pedro")].slice(0, 6),
+  "tweede-woning-beheer-san-pedro": ["villa-tuin-zwembad-beheer-san-pedro", ...(relatedBySlug["tweede-woning-beheer-san-pedro"] ?? []).filter((slug) => slug !== "villa-tuin-zwembad-beheer-san-pedro")].slice(0, 6),
+});
+
 const contentVisualBySlug: Record<string, { src: string; alt: string }> = {
   "vakantieverhuur-san-pedro": {
     src: "/luxe-woning-san-pedro-zeezicht.webp",
