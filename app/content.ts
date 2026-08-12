@@ -27,6 +27,73 @@ export const contentPages:ContentPage[]=[
 ,
 {"slug":"eigen-gebruik-en-verhuur-san-pedro","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Eigen gebruik en verhuur combineren voor je woning in San Pedro","seoTitle":"Eigen gebruik en verhuur San Pedro combineren | Gids","description":"Woning in San Pedro zelf gebruiken én verhuren? Zo stem je kalender, prijsstrategie, schoonmaak, sleutelbeheer en woningzorg goed op elkaar af.","intro":"Een tweede woning in San Pedro de Alcántara hoeft niet óf privéwoning óf verhuurwoning te zijn. Met duidelijke kalenderregels en lokaal beheer kun je eigen verblijven vooraf beschermen en beschikbare periodes professioneel laten verhuren.","sections":[{"title":"Begin bij je eigen kalender, niet bij het platform","paragraphs":["Blokkeer eerst de weken waarin jij, familie of vrienden de woning gebruikt. Pas daarna wordt bepaald welke perioden beschikbaar zijn voor vakantie-, midterm- of langere verhuur. Zo voorkom je dat commerciële beschikbaarheid je eigen plannen gaat sturen.","Voor woningen in Nueva Alcántara en Cortijo Blanco kunnen populaire vakantieperiodes belangrijk zijn voor de prijsstrategie. In Guadalmina kan juist een langere verblijfsduur beter passen bij woningtype en eigen gebruik."]},{"title":"Kies per periode een passende verhuurvorm","paragraphs":["Korte vakantieverhuur geeft flexibiliteit, maar vraagt veel operationele wissels. Midtermverhuur geeft meer rust in de kalender, terwijl langetermijnverhuur minder goed past wanneer je regelmatig zelf wilt terugkomen.","Bekijk daarom niet alleen de huurprijs. Vergelijk ook schoonmaakkosten, leegstand, bereikbaarheid, registratievoorwaarden en hoeveel tijd je zelf beschikbaar wilt houden."],"bullets":["Vakantieverhuur voor flexibele beschikbaarheid","Midterm voor langere tijdelijke verblijven","Langetermijn wanneer eigen gebruik geen prioriteit heeft","Geen verhuur in periodes die je bewust privé houdt"]},{"title":"Maak onderscheid tussen een gastenwissel en je eigen aankomst","paragraphs":["Voor een betalende gast gelden vaste presentatie- en communicatieprocessen. Voor je eigen verblijf wil je misschien persoonlijke spullen beschikbaar hebben, andere inventaris gebruiken of extra onderhoud laten uitvoeren.","Leg vast wat tijdens verhuur wordt opgeborgen, hoe de woning na een eigen verblijf wordt achtergelaten en wie de volgende schoonmaak of controle activeert."]},{"title":"Laat lokale woningzorg doorlopen buiten de verhuur","paragraphs":["Ook wanneer de kalender tijdelijk dichtstaat, blijven sleutelbeheer, woningcontroles en toegang voor leveranciers relevant. Dat voorkomt dat beheer alleen actief is wanneer er een reservering bestaat.","Eén Nederlandstalig aanspreekpunt kan kalender, lokale teams en onderhoud op elkaar afstemmen, terwijl jij vooraf akkoord geeft op niet-reguliere kosten."]}],"faqs":[["Kan ik eigen weken blokkeren bij vakantieverhuur?","Ja. Eigen verblijven worden vooraf in de kalender vastgelegd."],["Welke verhuurvorm past het beste bij regelmatig eigen gebruik?","Dat hangt af van gewenste flexibiliteit, beschikbare periodes en de toepasselijke voorwaarden; vakantie- of midtermverhuur sluit vaak beter aan dan een lang contract."],["Kan woningbeheer doorgaan als ik tijdelijk niet verhuur?","Ja. Sleutelbeheer, controles en onderhoudscoördinatie kunnen doorlopen."],["Wie plant de schoonmaak na mijn eigen verblijf?","Dat wordt onderdeel van de beheerafspraken en kalenderprocedure."],["Kan ik later wisselen van verhuurvorm?","Dat kan wanneer lopende reserveringen, overeenkomsten en actuele regels dit toelaten."]]}
 ,
-{"slug":"woning-klaarmaken-eigen-aankomst-san-pedro","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Je woning in San Pedro laten voorbereiden voor eigen aankomst","seoTitle":"Woning voorbereiden in San Pedro | Eigen aankomst","description":"Laat je tweede woning in San Pedro vóór aankomst controleren en voorbereiden: toegang, schoonmaak, installaties, voorraad en lokale opvolging.","intro":"Na een reis wil je je woning in San Pedro kunnen openen en gebruiken zonder eerst storingen, schoonmaak of ontbrekende toegangsmiddelen op te lossen. Een vaste aankomstcheck maakt de overgang van leegstand of verhuur naar eigen gebruik voorspelbaar.","sections":[{"title":"Plan de controle enkele dagen vóór aankomst","paragraphs":["Controleer toegang, stroom, water, warm water, internet, airconditioning en zichtbare lekkages voordat de reis begint. Er blijft dan tijd om een kleine storing op te lossen of een leverancier in te plannen.","Bij appartementen in San Pedro, Guadalmina of richting Nueva Andalucía spelen ook garage, lift, toegangspoort en comunidadmeldingen mee. Controleer of geplande werkzaamheden of tijdelijke afsluitingen invloed hebben op de aankomst."],"bullets":["Sleutels, keybox en toegangspassen","Water, stroom, wifi en airconditioning","Ramen, rolluiken en terras","Actuele comunidad- of onderhoudsmeldingen"]},{"title":"Stem schoonmaak af op het laatste gebruik","paragraphs":["Een woning die leeg heeft gestaan vraagt een andere schoonmaak dan een woning na gasten. Bespreek stof, buitenruimte, koelkast, bedlinnen en badkamers afzonderlijk, zodat de schoonmaker weet wat gereed moet zijn.","Laat na schoonmaak een korte eindcontrole uitvoeren. Daarmee worden vergeten ramen, een uitgeschakelde boiler of een ontbrekend toegangsmiddel nog vóór aankomst ontdekt."]},{"title":"Maak eigen gebruik zichtbaar in de planning","paragraphs":["Blokkeer de verblijfsdata tijdig wanneer de woning ook wordt verhuurd. Houd ruimte vóór aankomst voor controle en voorbereiding en na vertrek voor afsluiting, inventaris en eventuele schoonmaak.","Noteer bijzonderheden zoals kinderbed, werkplek, parkeerplaats of gewenste bedopstelling. Vaste voorkeuren voorkomen dat dezelfde instructies voor ieder verblijf opnieuw verspreid raken."]},{"title":"Sluit ook het vertrek goed af","paragraphs":["Een aankomstservice werkt het best samen met een vertrekcheck. Controleer ramen, water, apparatuur, afval, textiel, terrassen en toegangsmiddelen voordat de woning weer leegstaat of opnieuw wordt verhuurd.","Een lokaal aanspreekpunt kan beide momenten vastleggen. Zo blijft duidelijk in welke staat de woning is achtergelaten en welke actie vóór het volgende gebruik nodig is."]}],"faqs":[["Hoe lang vóór aankomst moet de controle plaatsvinden?","Bij voorkeur enkele dagen vooraf, zodat er tijd is voor schoonmaak of een kleine reparatie."],["Kunnen boodschappen worden klaargezet?","Aanvullende voorbereiding kan worden besproken; leg vooraf duidelijk vast wat gewenst is."],["Kan voorbereiding worden gecombineerd met verhuurbeheer?","Ja, eigen gebruik kan in de kalender worden geblokkeerd en op de beheerplanning aansluiten."],["Wordt wifi ook getest?","Internet en andere installaties kunnen onderdeel zijn van de afgesproken aankomstcheck."],["Kan alleen sleutelbeheer en aankomstcontrole worden afgenomen?","Ja, de dienstverlening kan passend bij de woning en gewenste ondersteuning worden besproken."]]}
+{"slug":"woning-klaarmaken-eigen-aankomst-san-pedro","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Je woning in San Pedro laten voorbereiden voor eigen aankomst","seoTitle":"Woning voorbereiden in San Pedro | Eigen aankomst","description":"Laat je tweede woning in San Pedro vóór aankomst controleren en voorbereiden: toegang, schoonmaak, installaties, voorraad en lokale opvolging.","intro":"Na een reis wil je je woning in San Pedro kunnen openen en gebruiken zonder eerst storingen, schoonmaak of ontbrekende toegangsmiddelen op te lossen. Een vaste aankomstcheck maakt de overgang van leegstand of verhuur naar eigen gebruik voorspelbaar.","sections":[{"title":"Plan de controle enkele dagen vóór aankomst","paragraphs":["Controleer toegang, stroom, water, warm water, internet, airconditioning en zichtbare lekkages voordat de reis begint. Er blijft dan tijd om een kleine storing op te lossen of een leverancier in te plannen.","Bij appartementen in San Pedro, Guadalmina of richting Nueva Andalucía spelen ook garage, lift, toegangspoort en comunidadmeldingen mee. Controleer of geplande werkzaamheden of tijdelijke afsluitingen invloed hebben op de aankomst."],"bullets":["Sleutels, keybox en toegangspassen","Water, stroom, wifi en airconditioning","Ramen, rolluiken en terras","Actuele comunidad- of onderhoudsmeldingen"]},{"title":"Stem schoonmaak af op het laatste gebruik","paragraphs":["Een woning die leeg heeft gestaan vraagt een andere schoonmaak dan een woning na gasten. Bespreek stof, buitenruimte, koelkast, bedlinnen en badkamers afzonderlijk, zodat de schoonmaker weet wat gereed moet zijn.","Laat na schoonmaak een korte eindcontrole uitvoeren. Daarmee worden vergeten ramen, een uitgeschakelde boiler of een ontbrekend toegangsmiddel nog vóór aankomst ontdekt."]},{"title":"Maak eigen gebruik zichtbaar in de planning","paragraphs":["Blokkeer de verblijfsdata tijdig wanneer de woning ook wordt verhuurd. Houd ruimte vóór aankomst voor controle en voorbereiding en na vertrek voor afsluiting, inventaris en eventuele schoonmaak.","Noteer bijzonderheden zoals kinderbed, werkplek, parkeerplaats of gewenste bedopstelling. Vaste voorkeuren voorkomen dat dezelfde instructies voor ieder verblijf opnieuw verspreid raken."]},{"title":"Sluit ook het vertrek goed af","paragraphs":["Een aankomstservice werkt het best samen met een vertrekcheck. Controleer ramen, water, apparatuur, afval, textiel, terrassen en toegangsmiddelen voordat de woning weer leegstaat of opnieuw wordt verhuurd.","Een lokaal aanspreekpunt kan beide momenten vastleggen. Zo blijft duidelijk in welke staat de woning is achtergelaten en welke actie vóór het volgende gebruik nodig is."]}],"faqs":[["Hoe lang vóór aankomst moet de controle plaatsvinden?","Bij voorkeur enkele dagen vooraf, zodat er tijd is voor schoonmaak of een kleine reparatie."],["Kunnen boodschappen worden klaargezet?","Aanvullende voorbereiding kan worden besproken; leg vooraf duidelijk vast wat gewenst is."],["Kan voorbereiding worden gecombineerd met verhuurbeheer?","Ja, eigen gebruik kan in de kalender worden geblokkeerd en op de beheerplanning aansluiten."],["Wordt wifi ook getest?","Internet en andere installaties kunnen onderdeel zijn van de afgesproken aankomstcheck."],["Kan alleen sleutelbeheer en aankomstcontrole worden afgenomen?","Ja, de dienstverlening kan passend bij de woning en gewenste ondersteuning worden besproken."]]},
+{
+  "slug": "villa-tuin-zwembad-beheer-san-pedro",
+  "type": "gids",
+  "eyebrow": "Praktische gids voor villa-eigenaren",
+  "title": "Tuin en zwembad van je villa in San Pedro op afstand beheren",
+  "seoTitle": "Villa tuin en zwembad beheer San Pedro",
+  "description": "Beheer tuin, zwembad en buitenruimte van je villa in San Pedro op afstand met vaste controles, leveranciersafspraken en duidelijke rapportage.",
+  "intro": "Bij een villa gaat lokaal beheer verder dan de woning. Tuin, zwembad, irrigatie, poorten en buitenverlichting hebben ieder een eigen onderhoudsritme. Eén overzicht voorkomt dat leveranciers langs elkaar heen werken.",
+  "sections": [
+    {
+      "title": "Maak één kalender voor alle buitenpartijen",
+      "paragraphs": [
+        "Leg tuinwerk, zwembadservice, irrigatiecontrole en periodieke woningchecks in één planning vast. Noteer wie toegang nodig heeft en wie afwijkingen terugkoppelt.",
+        "In Guadalmina en rond Nueva Andalucía kunnen grotere percelen en gemeenschappelijke regels meespelen. In Nueva Alcántara of Cortijo Blanco vragen compacte tuinen, terrassen en burencontact weer andere afstemming."
+      ],
+      "bullets": [
+        "Tuinman en snoeiplanning",
+        "Zwembadservice en technische controle",
+        "Irrigatie en waterverbruik",
+        "Poort, verlichting en buitenmeubilair"
+      ]
+    },
+    {
+      "title": "Laat iedere specialist zijn eigen vak beoordelen",
+      "paragraphs": [
+        "Een beheerder kan signaleren en coördineren, maar chemische zwembadwaarden en complexe irrigatie horen bij vakpartijen. Leg rapportage zo vast dat de eigenaar weet wat gemeten of uitgevoerd is.",
+        "Voorkom blanco toestemming voor extra werk. Vraag bij niet-regulier onderhoud eerst om foto, oorzaak, voorstel en kosten."
+      ]
+    },
+    {
+      "title": "Controleer na wind, hitte en zware regen",
+      "paragraphs": [
+        "Extreme omstandigheden kunnen takken, afvoeren, tuinmeubilair en pompen beïnvloeden. Plan na uitzonderlijk weer een extra visuele ronde wanneer de woning leegstaat.",
+        "Let ook op sporen van water rond technische ruimtes en ongewoon verbruik. Een kleine leidingbreuk kan buiten langer onopgemerkt blijven."
+      ]
+    },
+    {
+      "title": "Bereid buitenruimte voor op eigen gebruik of verhuur",
+      "paragraphs": [
+        "Plan snoeiwerk, zwembadcontrole en terrasreiniging ruim vóór aankomst. Controleer daarna veiligheid, verlichting en toegang opnieuw.",
+        "Bij verhuur moeten instructies voor zwembad en tuin duidelijk zijn, terwijl technische ruimtes gesloten blijven. Voor eigen gebruik kunnen persoonlijke wensen apart worden vastgelegd."
+      ]
+    }
+  ],
+  "faqs": [
+    [
+      "Doet de beheerder zelf zwembadonderhoud?",
+      "Specialistisch onderhoud wordt doorgaans door een zwembadprofessional uitgevoerd; de beheerder coördineert en controleert."
+    ],
+    [
+      "Hoe vaak moet de tuin worden bekeken?",
+      "Dat hangt af van seizoen, beplanting en irrigatie."
+    ],
+    [
+      "Kan waterverbruik worden gecontroleerd?",
+      "Meterstanden en zichtbare afwijkingen kunnen onderdeel zijn van de afgesproken controle."
+    ],
+    [
+      "Wie geeft leveranciers toegang?",
+      "Een sleutelbeheerder kan toegang begeleiden wanneer opdracht en toestemming vaststaan."
+    ],
+    [
+      "Kan buitenbeheer zonder verhuur?",
+      "Ja, villa- en vastgoedbeheer kunnen volledig los van verhuur worden ingericht."
+    ]
+  ]
+}
 ];
 export const contentBySlug=Object.fromEntries(contentPages.map(p=>[p.slug,p]));
