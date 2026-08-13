@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ...siteConfig.seo.primaryKeywords,
     ...siteConfig.seo.longTailKeywords,
   ],
-  alternates: { canonical: "/" },
+  alternates: {\n    canonical: "/",\n    languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" },\n  },
   openGraph: {
     title: siteConfig.brand.name,
     description: siteConfig.seo.description,
