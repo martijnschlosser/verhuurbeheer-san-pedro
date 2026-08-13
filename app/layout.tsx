@@ -12,6 +12,7 @@ import "./design-upgrade.css";
 import "./logo-fix.css";
 import CookieConsent from "./CookieConsent";
 import Analytics from "./Analytics";
+import LanguageSwitcher from "./LanguageSwitcher";
 import { siteConfig } from "./site-config";
 
 export const metadata: Metadata = {
@@ -81,6 +82,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <LanguageSwitcher />
         {children}
         <Analytics />
         <CookieConsent />
