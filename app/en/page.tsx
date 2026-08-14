@@ -192,7 +192,7 @@ function LocalizedHome() {
     })),
   };
   return (
-    <main>
+    <main lang="en">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -696,5 +696,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { keywords: ["property management San Pedro de Alcántara","holiday rental management San Pedro de Alcántara","Airbnb management San Pedro de Alcántara","key holding San Pedro de Alcántara","home checks San Pedro de Alcántara","second home management San Pedro de Alcántara","villa management San Pedro de Alcántara","apartment management San Pedro de Alcántara"], title: "Property Management San Pedro de Alcántara | Holiday Rental & Key Holding", description: "Local property management in San Pedro de Alcántara for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
+export const metadata = { robots: { index: false, follow: true }, keywords: ["property management San Pedro de Alcántara","holiday rental management San Pedro de Alcántara","Airbnb management San Pedro de Alcántara","key holding San Pedro de Alcántara","home checks San Pedro de Alcántara","second home management San Pedro de Alcántara","villa management San Pedro de Alcántara","apartment management San Pedro de Alcántara"], title: "Property Management San Pedro de Alcántara | Holiday Rental & Key Holding", description: "Local property management in San Pedro de Alcántara for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
 export default LocalizedHome;
