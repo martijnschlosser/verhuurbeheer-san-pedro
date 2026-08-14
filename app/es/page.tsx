@@ -192,7 +192,7 @@ function LocalizedHome() {
     })),
   };
   return (
-    <main>
+    <main lang="es">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -696,5 +696,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { keywords: ["gestión de propiedades San Pedro de Alcántara","gestión de alquiler vacacional San Pedro de Alcántara","gestión de Airbnb San Pedro de Alcántara","custodia de llaves San Pedro de Alcántara","revisión de viviendas San Pedro de Alcántara","gestión de segunda residencia San Pedro de Alcántara","mantenimiento de viviendas San Pedro de Alcántara","administración de propiedades San Pedro de Alcántara"], title: "Gestión de Propiedades en San Pedro de Alcántara | Alquiler Vacacional y Llaves", description: "Gestión local de propiedades en San Pedro de Alcántara: alquiler vacacional, gestión de Airbnb, custodia de llaves, revisiones, limpieza y mantenimiento.", alternates: { canonical: "/es/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "es_ES", url: "/es/", type: "website" as const } };
+export const metadata = { robots: { index: false, follow: true }, keywords: ["gestión de propiedades San Pedro de Alcántara","gestión de alquiler vacacional San Pedro de Alcántara","gestión de Airbnb San Pedro de Alcántara","custodia de llaves San Pedro de Alcántara","revisión de viviendas San Pedro de Alcántara","gestión de segunda residencia San Pedro de Alcántara","mantenimiento de viviendas San Pedro de Alcántara","administración de propiedades San Pedro de Alcántara"], title: "Gestión de Propiedades en San Pedro de Alcántara | Alquiler Vacacional y Llaves", description: "Gestión local de propiedades en San Pedro de Alcántara: alquiler vacacional, gestión de Airbnb, custodia de llaves, revisiones, limpieza y mantenimiento.", alternates: { canonical: "/es/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "es_ES", url: "/es/", type: "website" as const } };
 export default LocalizedHome;
