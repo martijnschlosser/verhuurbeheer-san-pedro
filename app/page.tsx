@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+import { homeLanguageAlternates } from "./language-alternates";
+
+export const metadata: Metadata = { alternates: homeLanguageAlternates };
+
 import { CookiePreferencesButton } from "./CookieConsent";
 import GeoAuthority, { geoLastReviewed, geoSources } from "./GeoAuthority";
 import {
@@ -151,7 +156,7 @@ export default function Home() {
     ],
     telephone: siteConfig.contact.phone,
     url: absoluteUrl(),
-    logo: absoluteUrl("/vbs-logo-san-pedro.png"),
+    logo: absoluteUrl("/verhuurbeheer-san-pedro-logo.png"),
     image: absoluteUrl("/luxe-woning-san-pedro-zeezicht.webp"),
     knowsLanguage: ["nl", "en", "es"],
     knowsAbout: [

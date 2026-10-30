@@ -13,7 +13,7 @@ export function BrandLockup({
     <a className={`${className} brand-lockup`} href="/" aria-label={ariaLabel}>
       <img
         className="brand-logo"
-        src="/vbs-logo-san-pedro.png"
+        src="/verhuurbeheer-san-pedro-logo.png"
         alt=""
         width="72"
         height="72"

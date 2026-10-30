@@ -26,7 +26,7 @@ export const siteConfig = {
     ],
   },
   assets: {
-    logo: "/vbs-logo-san-pedro.png",
+    logo: "/verhuurbeheer-san-pedro-logo.png",
     hero: "/san-pedro-hero.webp",
     social: "/luxe-woning-san-pedro-zeezicht.webp",
     signup: "/zonnig-terras-zeezicht-san-pedro.webp",
