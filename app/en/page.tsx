@@ -129,7 +129,7 @@ function LocalizedHome() {
   const schema = {
     "@context": "https://schema.org",
     "@type": ["Organization", "ProfessionalService"],
-    "@id": `${siteConfig.domain}/en/#organization`,
+    "@id": `${siteConfig.domain}/en#organization`,
     name: siteConfig.brand.name,
     description:
       "Full-service property management, holiday rental management and second-home care for owners in San Pedro de Alcántara.",
@@ -147,7 +147,7 @@ function LocalizedHome() {
       { "@type": "City", name: "Benalmádena" },
     ],
     telephone: siteConfig.contact.phone,
-    url: absoluteUrl("/en/"),
+    url: absoluteUrl("/en"),
     logo: absoluteUrl("/terras-zonsondergang-san-pedro.webp"),
     image: absoluteUrl("/urbanisatie-zwembad-san-pedro.webp"),
     knowsLanguage: ["nl", "en", "es"],
@@ -165,11 +165,11 @@ function LocalizedHome() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": `${siteConfig.domain}/en/#website`,
-    url: absoluteUrl("/en/"),
+    "@id": `${siteConfig.domain}/en#website`,
+    url: absoluteUrl("/en"),
     name: siteConfig.brand.name,
     inLanguage: "en-GB",
-    publisher: { "@id": `${siteConfig.domain}/en/#organization` },
+    publisher: { "@id": `${siteConfig.domain}/en#organization` },
   };
   const faqSchema = {
     "@context": "https://schema.org",
@@ -212,27 +212,27 @@ function LocalizedHome() {
           <details className="services-menu">
             <summary>Services</summary>
             <div>
-              <a href="/en/holiday-rental-management/">Holiday rental management</a>
-              <a href="/en/mid-term-rental/">
+              <a href="/en/holiday-rental-management">Holiday rental management</a>
+              <a href="/en/mid-term-rental">
                 Seasonal and mid-term rentals
               </a>
-              <a href="/en/long-term-rental/">Long-term rentals</a>
-              <a href="/en/property-management/">Property management</a>
-              <a href="/en/cleaning-maintenance/">
+              <a href="/en/long-term-rental">Long-term rentals</a>
+              <a href="/en/property-management">Property management</a>
+              <a href="/en/cleaning-maintenance">
                 Cleaning & maintenance
               </a>
-              <a href="/en/renovation-furnishing/">
+              <a href="/en/renovation-furnishing">
                 Renovation & furnishing
               </a>
-              <a href="/en/rental-licence/">Rental licence</a>
+              <a href="/en/rental-licence">Rental licence</a>
             </div>
           </details>
-          <a href="/werkwijze/">How we work</a>
-          <a href="/over-ons/">About us</a>
-          <a href="/blog/">Guides</a>
-          <a href="/en/#contact">Contact</a>
+          <a href="/werkwijze">How we work</a>
+          <a href="/over-ons">About us</a>
+          <a href="/blog">Guides</a>
+          <a href="/en#contact">Contact</a>
         </nav>
-        <a className="btn btn-small header-cta" href="/en/#contact">
+        <a className="btn btn-small header-cta" href="/en#contact">
           List your property
         </a>
         <details className="mobile-menu">
@@ -244,19 +244,19 @@ function LocalizedHome() {
           <div>
             <a href="/">Home</a>
             <b>Services</b>
-            <a href="/en/holiday-rental-management/">Holiday rental management</a>
-            <a href="/en/mid-term-rental/">Seasonal and mid-term rentals</a>
-            <a href="/en/long-term-rental/">Long-term rentals</a>
-            <a href="/en/property-management/">Property management</a>
-            <a href="/en/cleaning-maintenance/">Cleaning & maintenance</a>
-            <a href="/en/renovation-furnishing/">Renovation & furnishing</a>
-            <a href="/en/rental-licence/">Rental licence</a>
+            <a href="/en/holiday-rental-management">Holiday rental management</a>
+            <a href="/en/mid-term-rental">Seasonal and mid-term rentals</a>
+            <a href="/en/long-term-rental">Long-term rentals</a>
+            <a href="/en/property-management">Property management</a>
+            <a href="/en/cleaning-maintenance">Cleaning & maintenance</a>
+            <a href="/en/renovation-furnishing">Renovation & furnishing</a>
+            <a href="/en/rental-licence">Rental licence</a>
             <b>Company</b>
-            <a href="/werkwijze/">How we work</a>
-            <a href="/over-ons/">About us</a>
-            <a href="/blog/">Guides & knowledge base</a>
-            <a href="/en/#contact">Contact</a>
-            <a href="/en/#contact">List your property</a>
+            <a href="/werkwijze">How we work</a>
+            <a href="/over-ons">About us</a>
+            <a href="/blog">Guides & knowledge base</a>
+            <a href="/en#contact">Contact</a>
+            <a href="/en#contact">List your property</a>
           </div>
         </details>
       </header>
@@ -272,7 +272,7 @@ function LocalizedHome() {
             From Nueva Alcántara and La Cala to San Pedro de Alcántara Pueblo, we combine smart rental management with trusted local people. You have one clear contact for bookings, guests, cleaning, maintenance and the day-to-day care of your property.
           </p>
           <div className="actions">
-            <a className="btn hero-cta" href="/en/#contact">
+            <a className="btn hero-cta" href="/en#contact">
               List your property
             </a>
             <a className="link-light" href="#diensten">
@@ -340,7 +340,7 @@ function LocalizedHome() {
         </div>
         <div className="service-grid">
           {services.map((s, i) => (
-            <a className="service-card" href={`/en/${s.slug}/`} key={s.slug}>
+            <a className="service-card" href={`/en/${s.slug}`} key={s.slug}>
               <div className="service-card-top">
                 <span className="service-icon">
                   <s.icon aria-hidden="true" />
@@ -364,7 +364,7 @@ function LocalizedHome() {
             See which registration and licensing requirements may apply to your property.
           </p>
         </div>
-        <a href="/en/rental-licence/">Read about rental licensing →</a>
+        <a href="/en/rental-licence">Read about rental licensing →</a>
       </aside>
 
       <section className="rental-band">
@@ -376,17 +376,17 @@ function LocalizedHome() {
           </p>
         </div>
         <div className="rental-options">
-          <a href="/en/holiday-rental-management/">
+          <a href="/en/holiday-rental-management">
             <small>Short stays</small>
             <b>Holiday rental management</b>
             <span>From 18% →</span>
           </a>
-          <a href="/en/mid-term-rental/">
+          <a href="/en/mid-term-rental">
             <small>Temporary stays</small>
             <b>Mid-term</b>
             <span>One month’s rent →</span>
           </a>
-          <a href="/en/long-term-rental/">
+          <a href="/en/long-term-rental">
             <small>Long-term tenant</small>
             <b>Langetermijn</b>
             <span>One month’s rent →</span>
@@ -466,7 +466,7 @@ function LocalizedHome() {
           <p>
             Your contact knows your arrangements and our local team knows the property. Communication, administration and practical follow-up remain part of one process.
           </p>
-          <a className="dark-link" href="/over-ons/">
+          <a className="dark-link" href="/over-ons">
             Meet the full team →
           </a>
         </div>
@@ -492,23 +492,23 @@ function LocalizedHome() {
           </p>
         </div>
         <div className="knowledge-grid">
-          <a href="/en/management-costs/">
+          <a href="/en/management-costs">
             <small>Costs</small>
             <h3>What does property management cost?</h3>
             <span>Read guide →</span>
           </a>
-          <a href="/en/holiday-rental-management/">
+          <a href="/en/holiday-rental-management">
             <small>Returns</small>
             <h3>Dynamic pricing</h3>
             <span>Read guide →</span>
           </a>
-          <a href="/en/property-management/">
+          <a href="/en/property-management">
             <small>Decision guide</small>
             <h3>Self-manage or outsource?</h3>
             <span>Read guide →</span>
           </a>
         </div>
-        <a className="knowledge-all" href="/blog/">
+        <a className="knowledge-all" href="/blog">
           View all guides and articles →
         </a>
       </section>
@@ -569,20 +569,20 @@ function LocalizedHome() {
         </div>
         <div>
           <b>Services</b>
-          <a href="/en/holiday-rental-management/">Holiday rental management</a>
-          <a href="/en/mid-term-rental/">Seasonal and mid-term rentals</a>
-          <a href="/en/long-term-rental/">Long-term rentals</a>
-          <a href="/en/property-management/">Property management</a>
-          <a href="/en/rental-licence/">Rental licence</a>
+          <a href="/en/holiday-rental-management">Holiday rental management</a>
+          <a href="/en/mid-term-rental">Seasonal and mid-term rentals</a>
+          <a href="/en/long-term-rental">Long-term rentals</a>
+          <a href="/en/property-management">Property management</a>
+          <a href="/en/rental-licence">Rental licence</a>
         </div>
         <div>
           <b>More</b>
-          <a href="/werkwijze/">How we work</a>
-          <a href="/over-ons/">About us</a>
-          <a href="/blog/">Guides</a>
-          <a href="/en/#contact">Contact</a>
-          <a href="/privacy policy/">Privacy policy</a>
-          <a href="/cookieverklaring/">Cookie policy</a>
+          <a href="/werkwijze">How we work</a>
+          <a href="/over-ons">About us</a>
+          <a href="/blog">Guides</a>
+          <a href="/en#contact">Contact</a>
+          <a href="/privacyverklaring">Privacy policy</a>
+          <a href="/cookieverklaring">Cookie policy</a>
           <CookiePreferencesButton />
         </div>
         <div>
@@ -608,5 +608,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { robots: { index: true, follow: true }, keywords: ["property management San Pedro de Alcántara","holiday rental management San Pedro de Alcántara","Airbnb management San Pedro de Alcántara","key holding San Pedro de Alcántara","home checks San Pedro de Alcántara","second home management San Pedro de Alcántara","villa management San Pedro de Alcántara","apartment management San Pedro de Alcántara"], title: "Property Management San Pedro de Alcántara | Holiday Rental & Key Holding", description: "Local property management in San Pedro de Alcántara for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", "en-GB": "/en/", "es-ES": "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
+export const metadata = { robots: { index: true, follow: true }, keywords: ["property management San Pedro de Alcántara","holiday rental management San Pedro de Alcántara","Airbnb management San Pedro de Alcántara","key holding San Pedro de Alcántara","home checks San Pedro de Alcántara","second home management San Pedro de Alcántara","villa management San Pedro de Alcántara","apartment management San Pedro de Alcántara"], title: "Property Management San Pedro de Alcántara | Holiday Rental & Key Holding", description: "Local property management in San Pedro de Alcántara for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en", languages: { "nl-NL": "/", "en-GB": "/en", "es-ES": "/es", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en", type: "website" as const } };
 export default LocalizedHome;

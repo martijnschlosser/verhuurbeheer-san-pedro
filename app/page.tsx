@@ -223,25 +223,25 @@ export default function Home() {
           <details className="services-menu">
             <summary>Diensten</summary>
             <div>
-              <a href="/vakantieverhuur-san-pedro/">Vakantieverhuur</a>
-              <a href="/midterm-verhuur-san-pedro/">
+              <a href="/vakantieverhuur-san-pedro">Vakantieverhuur</a>
+              <a href="/midterm-verhuur-san-pedro">
                 Seizoens- en midtermverhuur
               </a>
-              <a href="/langetermijnverhuur-san-pedro/">Langetermijnverhuur</a>
-              <a href="/vastgoedbeheer-san-pedro/">Vastgoedbeheer</a>
-              <a href="/schoonmaak-onderhoud-san-pedro/">
+              <a href="/langetermijnverhuur-san-pedro">Langetermijnverhuur</a>
+              <a href="/vastgoedbeheer-san-pedro">Vastgoedbeheer</a>
+              <a href="/schoonmaak-onderhoud-san-pedro">
                 Schoonmaak & onderhoud
               </a>
-              <a href="/renovatie-inrichting-san-pedro/">
+              <a href="/renovatie-inrichting-san-pedro">
                 Renovatie & inrichting
               </a>
-              <a href="/verhuurlicentie-san-pedro/">Verhuurlicentie</a>
+              <a href="/verhuurlicentie-san-pedro">Verhuurlicentie</a>
             </div>
           </details>
-          <a href="/werkwijze/">Werkwijze</a>
-          <a href="/over-ons/">Over ons</a>
-          <a href="/blog/">Blog</a>
-          <a href="/contact/">Contact</a>
+          <a href="/werkwijze">Werkwijze</a>
+          <a href="/over-ons">Over ons</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
         </nav>
           <a className="btn btn-small header-cta" href={leadHref}>
           Woning aanmelden
@@ -255,19 +255,19 @@ export default function Home() {
           <div>
             <a href="/">Home</a>
             <b>Diensten</b>
-            <a href="/vakantieverhuur-san-pedro/">Vakantieverhuur</a>
-            <a href="/midterm-verhuur-san-pedro/">Seizoens- en midtermverhuur</a>
-            <a href="/langetermijnverhuur-san-pedro/">Langetermijnverhuur</a>
-            <a href="/vastgoedbeheer-san-pedro/">Vastgoedbeheer</a>
-            <a href="/schoonmaak-onderhoud-san-pedro/">Schoonmaak & onderhoud</a>
-            <a href="/renovatie-inrichting-san-pedro/">Renovatie & inrichting</a>
-            <a href="/verhuurlicentie-san-pedro/">Verhuurlicentie</a>
+            <a href="/vakantieverhuur-san-pedro">Vakantieverhuur</a>
+            <a href="/midterm-verhuur-san-pedro">Seizoens- en midtermverhuur</a>
+            <a href="/langetermijnverhuur-san-pedro">Langetermijnverhuur</a>
+            <a href="/vastgoedbeheer-san-pedro">Vastgoedbeheer</a>
+            <a href="/schoonmaak-onderhoud-san-pedro">Schoonmaak & onderhoud</a>
+            <a href="/renovatie-inrichting-san-pedro">Renovatie & inrichting</a>
+            <a href="/verhuurlicentie-san-pedro">Verhuurlicentie</a>
             <b>Bedrijf</b>
-            <a href="/werkwijze/">Werkwijze</a>
-            <a href="/over-ons/">Over ons</a>
-            <a href="/blog/">Blog & kennisbank</a>
-            <a href="/contact/">Contact</a>
-            <a href="/woning-aanmelden/">Woning aanmelden</a>
+            <a href="/werkwijze">Werkwijze</a>
+            <a href="/over-ons">Over ons</a>
+            <a href="/blog">Blog & kennisbank</a>
+            <a href="/contact">Contact</a>
+            <a href="/woning-aanmelden">Woning aanmelden</a>
           </div>
         </details>
       </header>
@@ -374,7 +374,7 @@ export default function Home() {
         </div>
         <div className="service-grid">
           {services.map((s, i) => (
-            <a className="service-card" href={`/${s.slug}/`} key={s.slug}>
+            <a className="service-card" href={`/${s.slug}`} key={s.slug}>
               <div className="service-card-top">
                 <span className="service-icon">
                   <s.icon aria-hidden="true" />
@@ -399,7 +399,7 @@ export default function Home() {
             relevant kunnen zijn.
           </p>
         </div>
-        <a href="/verhuurlicentie-san-pedro/">Lees over de verhuurlicentie →</a>
+        <a href="/verhuurlicentie-san-pedro">Lees over de verhuurlicentie →</a>
       </aside>
 
       <section className="rental-band">
@@ -412,17 +412,17 @@ export default function Home() {
           </p>
         </div>
         <div className="rental-options">
-          <a href="/vakantieverhuur-san-pedro/">
+          <a href="/vakantieverhuur-san-pedro">
             <small>Korte verblijven</small>
             <b>Vakantieverhuur</b>
             <span>Vanaf 18% →</span>
           </a>
-          <a href="/midterm-verhuur-san-pedro/">
+          <a href="/midterm-verhuur-san-pedro">
             <small>Tijdelijk verblijf</small>
             <b>Midterm</b>
             <span>1 maand huur →</span>
           </a>
-          <a href="/langetermijnverhuur-san-pedro/">
+          <a href="/langetermijnverhuur-san-pedro">
             <small>Vaste huurder</small>
             <b>Langetermijn</b>
             <span>1 maand huur →</span>
@@ -488,7 +488,7 @@ export default function Home() {
             we bewaken de uitstraling én de praktische details die het verschil
             maken voor gasten en eigenaren.
           </p>
-          <a className="dark-link" href="/woning-aanmelden/">
+          <a className="dark-link" href="/woning-aanmelden">
             Bespreek je woning met ons →
           </a>
         </div>
@@ -543,7 +543,7 @@ export default function Home() {
             Samen verzorgen we verhuur, administratie, vastgoedbeheer en
             praktische opvolging ter plaatse.
           </p>
-          <a className="dark-link" href="/over-ons/">
+          <a className="dark-link" href="/over-ons">
             Maak kennis met het volledige team →
           </a>
         </div>
@@ -570,23 +570,23 @@ export default function Home() {
           </p>
         </div>
         <div className="knowledge-grid">
-          <a href="/kosten-verhuurbeheer-san-pedro/">
+          <a href="/kosten-verhuurbeheer-san-pedro">
             <small>Kosten</small>
             <h3>Wat kost verhuurbeheer?</h3>
             <span>Lees blog →</span>
           </a>
-          <a href="/dynamische-prijzen-vakantiewoning/">
+          <a href="/dynamische-prijzen-vakantiewoning">
             <small>Opbrengst</small>
             <h3>Dynamische prijsstelling</h3>
             <span>Lees blog →</span>
           </a>
-          <a href="/zelf-verhuren-of-verhuurbeheer/">
+          <a href="/zelf-verhuren-of-verhuurbeheer">
             <small>Keuzehulp</small>
             <h3>Zelf verhuren of uitbesteden?</h3>
             <span>Lees blog →</span>
           </a>
         </div>
-        <a className="knowledge-all" href="/blog/">
+        <a className="knowledge-all" href="/blog">
           Bekijk alle blogs en artikelen →
         </a>
       </section>
@@ -639,20 +639,20 @@ export default function Home() {
         </div>
         <div>
           <b>Diensten</b>
-          <a href="/vakantieverhuur-san-pedro/">Vakantieverhuur</a>
-          <a href="/midterm-verhuur-san-pedro/">Seizoens- en midtermverhuur</a>
-          <a href="/langetermijnverhuur-san-pedro/">Langetermijnverhuur</a>
-          <a href="/vastgoedbeheer-san-pedro/">Vastgoedbeheer</a>
-          <a href="/verhuurlicentie-san-pedro/">Verhuurlicentie</a>
+          <a href="/vakantieverhuur-san-pedro">Vakantieverhuur</a>
+          <a href="/midterm-verhuur-san-pedro">Seizoens- en midtermverhuur</a>
+          <a href="/langetermijnverhuur-san-pedro">Langetermijnverhuur</a>
+          <a href="/vastgoedbeheer-san-pedro">Vastgoedbeheer</a>
+          <a href="/verhuurlicentie-san-pedro">Verhuurlicentie</a>
         </div>
         <div>
           <b>Meer</b>
-          <a href="/werkwijze/">Werkwijze</a>
-          <a href="/over-ons/">Over ons</a>
-          <a href="/blog/">Blog</a>
-          <a href="/contact/">Contact</a>
-          <a href="/privacyverklaring/">Privacyverklaring</a>
-          <a href="/cookieverklaring/">Cookieverklaring</a>
+          <a href="/werkwijze">Werkwijze</a>
+          <a href="/over-ons">Over ons</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
+          <a href="/privacyverklaring">Privacyverklaring</a>
+          <a href="/cookieverklaring">Cookieverklaring</a>
           <CookiePreferencesButton />
         </div>
         <div>
