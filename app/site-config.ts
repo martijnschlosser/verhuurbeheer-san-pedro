@@ -9,7 +9,6 @@ export const siteConfig = {
   brand: {
     name: "Verhuurbeheer San Pedro de Alcántara",
     legalName: "Verhuurbeheer Spanje",
-    parentUrl: "https://www.verhuurbeheerspanje.nl/",
   },
   location: {
     city: "San Pedro de Alcántara",

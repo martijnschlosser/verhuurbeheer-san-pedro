@@ -141,7 +141,6 @@ export default function Home() {
     parentOrganization: {
       "@type": "Organization",
       name: "Verhuurbeheer Spanje",
-      url: "https://www.verhuurbeheerspanje.nl/",
     },
     areaServed: [
       { "@type": "City", name: "San Pedro de Alcántara" },
@@ -161,7 +160,6 @@ export default function Home() {
     logo: absoluteUrl("/vbs-logo-san-pedro.png"),
     image: absoluteUrl("/luxe-woning-san-pedro-zeezicht.webp"),
     sameAs: [
-      siteConfig.brand.parentUrl,
       siteConfig.social.instagram,
       siteConfig.social.facebook,
     ],
@@ -648,9 +646,9 @@ export default function Home() {
           <BrandLockup ariaLabel="Naar Home" />
           <p>
             Verhuurbeheer San Pedro de Alcántara is onderdeel van{" "}
-            <a href="https://www.verhuurbeheerspanje.nl/">
+            <span>
               Verhuurbeheer Spanje
-            </a>
+            </span>
             .
           </p>
           <div className="social-links">
