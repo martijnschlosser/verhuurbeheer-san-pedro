@@ -8,7 +8,6 @@ export const siteConfig = {
   },
   brand: {
     name: "Verhuurbeheer San Pedro de Alcántara",
-    legalName: "Verhuurbeheer Spanje",
   },
   location: {
     city: "San Pedro de Alcántara",
@@ -35,17 +34,13 @@ export const siteConfig = {
   },
   domain: "https://verhuurbeheersanpedro.nl",
   contact: {
-    email: "contact@verhuurbeheerspanje.nl",
+    phone: "+31852128105",
     whatsapp: "31852128105",
   },
   pricing: {
     holidayRental: "Vanaf 18%",
     midterm: "Eenmalig 1 maand huur",
     longterm: "Eenmalig 1 maand huur",
-  },
-  social: {
-    instagram: "https://www.instagram.com/verhuurbeheer_spanje/",
-    facebook: "https://www.facebook.com/verhuurbeheerspanje/",
   },
   seo: {
     title: "Verhuurbeheer San Pedro de Alcántara | Voor Nederlandse eigenaren",
@@ -93,8 +88,7 @@ export const siteConfig = {
 
 export const absoluteUrl = (path = "/") =>
   `${siteConfig.domain}${path.startsWith("/") ? path : `/${path}`}`;
-export const emailHref = `mailto:${siteConfig.contact.email}`;
-export const leadFormAction = `https://formsubmit.co/${siteConfig.contact.email}`;
+export const phoneHref = `tel:${siteConfig.contact.phone}`;
 export const leadHref = siteConfig.template.leadPath;
 export const leadSubject = (context = "woningaanmelding") =>
   `Nieuwe ${context} via ${siteConfig.brand.name}`;
